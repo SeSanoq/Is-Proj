@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import joblib
 from pathlib import Path
+from tensorflow.keras.models import load_model
 import plotly.graph_objects as go
 
 # ---------------- CONFIG ----------------
